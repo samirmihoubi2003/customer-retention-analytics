@@ -1,5 +1,5 @@
 """Load generated CSV files into PostgreSQL, replacing tables for a repeatable local demo."""
-
+import argparse
 import os
 from pathlib import Path
 import pandas as pd
